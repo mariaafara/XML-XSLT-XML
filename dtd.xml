@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE meetings [
+<!ELEMENT meetings (meeting)*>
+<!ELEMENT meeting (title , date , points , attendance , comments? , file?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT points (point)+>
+<!ELEMENT point (#PCDATA)>
+<!ELEMENT attendance (attendee)+>
+<!ELEMENT attendee (#PCDATA)>
+<!ELEMENT comments (#PCDATA)>
+<!ELEMENT file (#PCDATA)>
+<!ATTLIST meeting type (department_meeting | section_of_faculty_meeting | faculty_meeting | university_council_meeting) #REQUIRED>
+<!ATTLIST meeting id CDATA #IMPLIED>
+]>
+<meetings>
+	<meeting type="department_meeting" id="1">
+		<title>Big events</title>
+		<date>2019-05-06</date>
+		<points>
+			<point>be good</point>
+			<point>behave nice</point>
+		</points>
+		<attendance>
+			<attendee>Dr Samir</attendee>
+			<attendee>Dr Omar</attendee>
+			<attendee>Dr Joyce</attendee>
+		</attendance>
+		<comments>it was a successful meeting lead to more agreements and desicions</comments>
+	</meeting>
+	<meeting type="section_of_faculty_meeting" id="2">
+		<title>Important Notes</title>
+		<date>2019-07-25</date>
+		<points>
+			<point>Finish erly this year</point>
+			<point>Practice more</point>
+		</points>
+		<attendance>
+			<attendee>Dr Salim</attendee>
+			<attendee>Dr Omar</attendee>
+			<attendee>Dr Fadi</attendee>
+		</attendance>
+	</meeting>
+	
+	<meeting type="faculty_meeting"><title>oo</title><date>2018-11-30</date><points><point>ok</point><point>one</point></points><attendance><attendee>samir</attendee><attendee>maria</attendee></attendance></meeting><meeting type="department_meeting"><title>Heloo</title><date>2019-01-11</date><points><point>q</point></points><attendance><attendee>654</attendee><attendee>jhg</attendee></attendance><file>C:\fakepath\ERD.png</file></meeting><meeting type="department_meeting"><title>Heloo</title><date>2019-01-11</date><points><point>mam</point><point>ama</point></points><attendance><attendee>aka</attendee><attendee>aaakk</attendee></attendance></meeting></meetings>
