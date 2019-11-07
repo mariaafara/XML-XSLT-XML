@@ -7,8 +7,7 @@ meeting. Several types of meetings may exist: department meeting, section of fac
 faculty meeting, and finally university council meeting. In order to facilitate later searches in
 the archives of meetings, information about each meeting is stored along with each report for
 example the title, the main key points and the name of attendees. The website should allow us
-to archive meetings and to display the stored meetings. Find below a page template that allows
-to archive a new meeting.
+to archive meetings and to display the stored meetings.
 
      the DTD represents the information to be stored about the meetings.
      When the user clicks the button “Archive”, the data should be stored in XML according to the DTD proposed 
